@@ -37,9 +37,10 @@ body {
     color: #555;
     padding: 10px 20px;
     color: #555;
+    width: 80%;
     height: 50px;
     border-radius: 50px 0px 0px 50px;
-    flex: 1;
+    /* flex: 2; */
     /* margin-right: 16px; */
     font-size: 15px;
 }
@@ -51,8 +52,8 @@ body {
     border: 0;
     outline: 0;
     background: #ebfffc;
-    border-radius: 0px 50% 50% 0px;
-    width: 50px;
+    border-radius: 0px 50px 50px 0px;
+    width: 20%;
     height: 50px;
     cursor: pointer;
 
@@ -118,6 +119,11 @@ body {
     display: none;
 }
 @media (max-width: 400px){
-  
+    .search button {
+
+        width: 100px;
+   
+    
+    }
     
 }
